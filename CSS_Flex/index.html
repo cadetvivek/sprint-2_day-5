@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Layout</title>
+ <style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  border: 5px dotted black;
+  background-color: yellow;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  border: 1px dotted black;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.image {
+  width: 150px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
+
+ </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="image">Image</div>
+      <div class="content">
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vero deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus autem sapiente.</p>
+        <a href="#">Read more</a>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="image">Image</div>
+      <div class="content">
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vero deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus autem sapiente.</p>
+        <a href="#">Read more</a>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="image">Image</div>
+      <div class="content">
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vero deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus autem sapiente.</p>
+        <a href="#">Read more</a>
+      </div>
+      </div>
+      <div class="card">
+        <div class="image">Image</div>
+        <div class="content">
+          <h3>Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vero deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus autem sapiente.</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="image">Image</div>
+        <div class="content">
+          <h3>Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vero deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus autem sapiente.</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="image">Image</div>
+        <div class="content">
+          <h3>Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vero deleniti incidunt rem. Voluptate, tempore quos, suscipit temporibus autem sapiente.</p>
+          <a href="#">Read more</a>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

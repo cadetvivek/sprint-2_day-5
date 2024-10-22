@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Keyboard</title>
+    <style>
+        *{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.container{
+    
+margin: 2rem;
+display: grid;
+gap: 0.5rem;
+padding-bottom: 3rem;
+margin-inline: 2rem;
+max-width: 1200px;
+margin-inline: auto;
+grid-template-columns: repeat(16,60px);
+grid-template-rows: repeat(6,60px);
+background-color:black;
+justify-content: center;
+border-radius: 10px;
+
+
+}
+.box{ 
+   color: skyblue;
+   font-size: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(81, 76, 76);
+  
+   
+   
+   border-radius: 5px;
+}
+.box-back{
+   grid-column-start: 14; 
+   grid-column-end: 16;
+   grid-row-start: 2;
+
+}
+.box-tab{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+   
+}
+
+
+.box-caps{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+}
+.box-enter{
+    grid-column-start: 14;
+    grid-column-end: 16;
+    grid-row-start: 4;
+}
+
+.box-shift{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+}
+
+.box-shift-1{
+    grid-column-start: 13;
+    grid-column-end: 16;
+    grid-row-start: 5;
+}
+.box-space{
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 6;
+    
+}
+.box-ctrl-1{
+    grid-column-start: 12;
+    grid-column-end: 14;
+    grid-row-start: 6;
+}
+    </style>
+</head>
+<body>
+    <h1>Laptop Keyboard</h1>
+    <div class="container">
+        <div class="box box-brack-up box-~">esc</div>
+        <div class="box box-2">f1</div>
+        <div class="box box-3">f2</div>
+        <div class="box box-4">f3</div>
+        <div class="box box-5">f4</div>
+        <div class="box box-6">f5</div>
+        <div class="box box-7">f6</div>
+        <div class="box box-8">f7</div>
+        <div class="box box-9">f8</div>
+        <div class="box box-10">f9</div>
+        <div class="box box-11">f10</div>
+        <div class="box box-12">f11</div>
+        <div class="box box-13">f12</div>
+        <div class="box box-14">num lk</div>
+        <div class="box box-15">prt sc</div>
+        <div class="box box-16">delete</div>
+        <div class="box box-">`~</div>
+        <div class="box box-13">! 1</div>
+        <div class="box box-2">@ 2</div>
+        <div class="box box-3"># 3</div>
+        <div class="box box-4">$ 4</div>
+        <div class="box box-5">% 5</div>
+        <div class="box box-6">^ 6</div>
+        <div class="box box-7">& 7</div>
+        <div class="box box-8">* 8</div>
+        <div class="box box-9">( 9</div>
+        <div class="box box-10">) 0</div>
+        <div class="box box-11">_  —</div>
+        <div class="box box-12">= +</div>
+        
+        <div class="box box-14">home</div>
+        <div class="box box-tab">tab</div>
+        <div class="box box-back">backspace</div>
+        <div class="box box-1">Q</div>
+        <div class="box box-2">W</div>
+        <div class="box box-3">E</div>
+        <div class="box box-4">R</div>
+        <div class="box box-5">T</div>
+        <div class="box box-6">Y</div>
+        <div class="box box-7">U</div>
+        <div class="box box-14">I</div>
+        <div class="box box-8">O</div>
+        <div class="box box-9">P</div>
+        <div class="box box-10">{ [</div>
+        <div class="box box-11">] }</div>
+        <div class="box box-12">| \</div>
+        <div class="box box-slace">end</div>
+        
+        <div class="box box-caps">caps lock</div>
+      
+        <div class="box box-1">A</div>
+        <div class="box box-2">S</div>
+        <div class="box box-3">D</div>
+        <div class="box box-4">F</div>
+        <div class="box box-5">G</div>
+        <div class="box box-6">H</div>
+        <div class="box box-7">J</div>
+        <div class="box box-8">K</div>
+        <div class="box box-9">L</div>
+        <div class="box box-10">; :</div>
+        <div class="box box-11">' "</div>
+        <div class="box box-enter">↩ enter</div>
+        <div class="box box-13">pg up</div>
+        <div class="box box-shift">shift ↑</div>
+        <div class="box box-15">Z</div>
+        <div class="box box-16">X</div>
+        <div class="box box-1">C</div>
+        <div class="box box-2">V</div>
+        <div class="box box-3">B</div>
+        <div class="box box-4">N</div>
+        <div class="box box-5">M</div>
+        <div class="box box-6">, <</div>
+        <div class="box box-7">. ></div>
+        <div class="box box-8">/ ?</div>
+        <div class="box box-shift-1">↑ shift</div>
+        <div class="box box-10">pg dn</div>
+        <div class="box box-11">ctrl</div>
+        <div class="box box-12">fn</div>
+        <div class="box box-13">Win ⨁</div>
+        <div class="box box-14">alt</div>
+        <div class="box box-space">space</div>
+        <div class="box box-16">alt gr</div>
+        <div class="box box-ctrl-1">ctrl</div>
+     
+        <div class="box box-3">⌨</div>
+        <div class="box box-4"><</div>
+        <div class="box box-arrow">⇵</div>
+        <div class="box box-6">></div>
+       
+  
+     
+       
+    </div>
+</body>
+</html>
